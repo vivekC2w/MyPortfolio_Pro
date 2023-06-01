@@ -1,0 +1,155 @@
+Create React App
+
+>>npx create-react-app my-app client
+
+>>npm start
+
+Create React Boiler Plate
+
+open Client directory 
+
+package.json File 
+This where all the dependecies 
+
+"react": "^18.2.0",
+"react-dom": "^18.2.0",
+
+Go to public >
+index.js
+
+<body>
+	<div id="root"></div>
+	
+In src >> index.js
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+
+
+ReactDOM. render(
+	<React.StrictMode>
+		<App />
+	</React.StrictMode>,
+	document.getElementById('root') //Through this line it will pass all content in App.js to index.html
+);
+
+In App.js //Whatever we render in App.js would be pass to index.js when <App /> is render in index.js
+import "./App.css";
+
+function App() {
+  return (
+    <div className="App">
+    </div>
+  );
+}
+
+export default App;
+
+//delete App.text.js logo.svg and setupTests.js
+
+//App.js
+import logo from './logo.svg'; //delete this line
+======================================================================================================
+
+*******************************HOME COMPONENT8***********************************
+src>> New Folder >> PortfolioContainer >> New Folder >> AboutMe
+//Setting Up the Project Structure
+src 
+	PortfolioContainer
+		AboutMe
+		ContactMe
+		Home
+		Resume
+		Footer
+		Testimonial
+		
+
+//we are going to create profile component
+src 
+	PortfolioContainer
+		Home
+			Profile.js
+			Profile.css
+			
+//Profile.js
+//we are going to implement first icons fb, Linkdein, github
+import React from "react";
+check the Profile.js file
+
+As we are using bootstrap for icons we need to include Links in index.html
+//Links are present in materialize folder from there copy paste into index.html 
+
+//go to app.js 
+
+import Profile from "./PortfolioContainer/Home/Profile";
+
+function App() {
+	return (
+		<div className="App">
+			<Profile />
+		</div>
+	);
+}
+
+export default App;
+
+//go ahead and check browser you can see icons of fb, Linkdein, github....
+
+Implement Type Effect
+//Profile
+
+To implement type effect we have to install react typical
+
+>>npm install react-typical
+
+import Typical from 'react-typical'
+
+<Typical
+                  loop={Infinity}
+                  steps={[
+                    "Enthusiastic Dev 🔴",
+                    1000,
+                    "Application Developer 👨‍💻",
+                    1000,
+                    "Full Stack Developer 💻",
+                    1000,
+                    "MERN Stack Dev",
+                    1000,
+                    "MEAN Stack Dev",
+                    1000,
+                  ]}
+                />	
+				
+ <span className="profile-role-tagline">
+                Building end-to-end digital solutions with expertise in both
+                front-end and back-end development.
+              </span>
+			  
+//Hire Me and resume 
+ <div className="profile-options">
+            <button className="btn primary-btn">
+              {""}
+              Hire Me{" "}
+            </button>
+            <a href="Vivek_Resume_FSD.pdf" download="Vivek_Resume_FSD.pdf">
+              <button className="btn highlighted-btn">Get Resume</button>
+            </a>
+          </div>
+		  
+//Display Profile Picture
+<div className="profile-picture">
+          <div className="profile-picture-background"></div>
+   </div>
+   
+
+src >> New Folder >> assets >> Home >> open materialz directory copy fonts folder and paste in assets 
+copy bh.img  shape-bg.png and profile photo in assests/Home   
+
+open code helper in materials dir 
+copy css file for fonts and paste in index.css
+
+copy colors code from codeHelper.txt and paste in App.css
+   
+//Style the Profile component
