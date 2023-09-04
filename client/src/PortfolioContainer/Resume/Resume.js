@@ -66,22 +66,31 @@ const Resume = (props) => {
       duration: { fromDate: "2022", toDate: "2023" },
       description:
         "A Personal Portfolio website to showcase all my details and projects at one place",
-      subHeading: "Technologies Used: React JS, Bootstrap",
+      subHeading: "Technologies Used: React JS, Bootsrap, RxJS, Node JS, Netlify, GitHub.",
     },
     {
-      title: "React Weather App",
-      duration: { fromDate: "2022", toDate: "2023" },
+      title: "Instagram Clone ",
+      duration: { fromDate: "2023", toDate: "2023" },
       description:
-        "Developed a responsive weather app using React and JavaScript that displays current weather and 7-day forecast for a user-specified location.",
+        "This Insta clone project replicates popular social media features, including user authentication, profiles, posts, likes, comments, follows, and search.",
       subHeading:
-        "Technologies Used: React JS, GeoDB Cities and OpenWeather APIs",
+        "Technologies Used: MERN stack,  Cloudinary, Nodemailer.",
     },
     {
-      title: "McDonald's Web App Project",
-      duration: { fromDate: "2022", toDate: "2023" },
+      title: "Food Ordering App ",
+      duration: { fromDate: "2023", toDate: "2023" },
       description:
-        "This is a responsive web application that emulates the user interface and functionality of McDonald's website.",
-      subHeading: "Technologies Used: HTML, CSS, Javascript, Bootstrap",
+        "Food ordering application, inspired by Swiggy, offers a diverse range of restaurants and cuisines for user to explore. It ensures a smooth and enjoyable food ordering experience for the user.",
+      subHeading:
+        "Technologies Used: React JS, Tailwind CSS, Redux.",
+    },
+    {
+      title: "McDonald's Web App Project ",
+      duration: { fromDate: "2023", toDate: "2023" },
+      description:
+        "During my web development journey, I undertook a challenging project—a McDonald's website clone—to gain extensive hands-on experience with web technologies. This venture boosted my confidence in responsive web design and JavaScript DOM manipulation.",
+      subHeading:
+        "Technologies Used: HTML, CSS, JavaScript and Bootstrap framework",
     },
   ];
 
