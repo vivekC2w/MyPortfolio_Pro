@@ -62,35 +62,34 @@ const Resume = (props) => {
 
   const projectsDetails = [
     {
-      title: "Personal Portfolio Website",
-      duration: { fromDate: "2022", toDate: "2023" },
+      title: "Sound Cloud Clone",
+      duration: { fromDate: "2023", toDate: "2023" },
       description:
-        "A Personal Portfolio website to showcase all my details and projects at one place",
-      subHeading: "Technologies Used: React JS, Bootsrap, RxJS, Node JS, Netlify, GitHub.",
+        "SoundClone is a music streaming web application that I developed to showcase my skills in front-end development. It features a user-friendly interface, user authentication, audio playback, and various interactive functionalities, enhancing the user's music streaming experience.",
+      subHeading:
+        "Technologies Used: React, Redux, JavaScript, JWT, HTML, CSS, Bootstrap.",
     },
     {
       title: "Instagram Clone ",
       duration: { fromDate: "2023", toDate: "2023" },
       description:
         "This Insta clone project replicates popular social media features, including user authentication, profiles, posts, likes, comments, follows, and search.",
+      subHeading: "Technologies Used: MERN stack,  Cloudinary, Nodemailer.",
+    },
+    {
+      title: "YouTube Clone",
+      duration: { fromDate: "2023", toDate: "2023" },
+      description:
+        "Build a responsive YouTube clone with React 18, functional components, and hooks for smooth state management. Utilize Context API for global state, Tailwind CSS for UI, and Axios for HTTP requests.",
       subHeading:
-        "Technologies Used: MERN stack,  Cloudinary, Nodemailer.",
+        "Technologies Used: React , Tailwind CSS, Redux, Rapid API, Axios",
     },
     {
       title: "Food Ordering App ",
       duration: { fromDate: "2023", toDate: "2023" },
       description:
         "Food ordering application, inspired by Swiggy, offers a diverse range of restaurants and cuisines for user to explore. It ensures a smooth and enjoyable food ordering experience for the user.",
-      subHeading:
-        "Technologies Used: React JS, Tailwind CSS, Redux.",
-    },
-    {
-      title: "McDonald's Web App Project ",
-      duration: { fromDate: "2023", toDate: "2023" },
-      description:
-        "During my web development journey, I undertook a challenging project—a McDonald's website clone—to gain extensive hands-on experience with web technologies. This venture boosted my confidence in responsive web design and JavaScript DOM manipulation.",
-      subHeading:
-        "Technologies Used: HTML, CSS, JavaScript and Bootstrap framework",
+      subHeading: "Technologies Used: React JS, Tailwind CSS, Redux.",
     },
   ];
 
