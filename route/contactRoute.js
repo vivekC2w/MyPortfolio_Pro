@@ -16,14 +16,14 @@ router.post("/contact", (req, res) => {
     service: "Gmail",
     port: 465,
     auth: {
-      user: "vivek23699@gmail.com",
+      user: "hirevivek12@gmail.com",
       pass: "wgvtswfpeptftcuk",
     },
   });
   //step - 2 we have to set mail in options object
   let mailOptions = {
     from: data.email,
-    to: "vivek23699@gmail.com",
+    to: "hirevivek12@gmail.com",
     subject: `message from ${data.name}`,
     html: `
                 <h3>Informations</h3>
