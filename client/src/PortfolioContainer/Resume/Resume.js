@@ -120,33 +120,35 @@ const Resume = (props) => {
       <div className="experience-container">
         <ResumeHeading
           heading={"Accenture"}
-          subHeading={"Application Developer"}
+          subHeading={"Software Engineer Frontend"}
           fromDate={"2021"}
           toDate={"present"}
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            Currently working as an Application Developer at Accenture and also
+            Currently working as an Frontend Developer at Accenture and also
             learning Full Stack development.
           </span>
         </div>
         <div className="experience-description">
           <span className="resume-description-text">
-            - Configured and set up monitoring for power backup devices,
-            security/environment, and NetBotz sensors in client data center.
+            - Contributed to the Onboarding website, improving user experience and functionality. 
           </span>
           <br />
           <span className="resume-description-text">
-            - Support the Multiple DevOps tools like Zabbix, HPE OneView, APC
-            DCE/NetBotz, and Ansible AWX.
+            - Seamlessly integrated design mockups with React logic to implement various functionalities. 
           </span>
           <br />
           <span className="resume-description-text">
-            - Communicate with partners and vendors on behalf of the company.
+            - Participated in code reviews, providing constructive feedback to foster a collaborative development environment.
           </span>
           <br />
           <span className="resume-description-text">
-            - Designing and developing test automation scripts.
+            - Enhanced user profiles with dynamic styling, elevating visual appeal and interactivity.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Addressed UI/logic issues through efficient refactoring of React Components, using JavaScript, React, HTML, and CSS.
           </span>
           <br />
         </div>
