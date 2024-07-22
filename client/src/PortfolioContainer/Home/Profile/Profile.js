@@ -44,13 +44,11 @@ export default function Profile() {
                   steps={[
                     "Enthusiastic Dev 😎",
                     1000,
-                    "Application Developer 👨‍💻",
+                    "Software Developer 👨‍💻",
                     1000,
                     "Full Stack Developer 💻",
                     1000,
                     "MERN Stack Dev 📱",
-                    1000,
-                    "MEAN Stack Dev 🌐",
                     1000,
                   ]}
                 />
@@ -70,7 +68,7 @@ export default function Profile() {
               {" "}
               Hire Me{" "}
             </button>
-            <a href="Vivek_Resume_FSD.pdf" download="Vivek_Resume_FSD.pdf">
+            <a href="Resume.docx" download="Resume.docx">
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
           </div>

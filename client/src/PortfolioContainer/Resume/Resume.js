@@ -51,11 +51,13 @@ const Resume = (props) => {
   const programmingSkillsDetails = [
     { skill: "JavaScript", ratingPercentage: 85 },
     { skill: "React JS", ratingPercentage: 85 },
-    { skill: "React Native", ratingPercentage: 85 },
+    { skill: "Typescript", ratingPercentage: 85 },
+    { skill: "Java", ratingPercentage: 85 },
     { skill: "Express JS", ratingPercentage: 89 },
     { skill: "Node JS", ratingPercentage: 89 },
-    { skill: "Mongo Db", ratingPercentage: 70 },
-    { skill: "Core Java", ratingPercentage: 80 },
+    { skill: "Mongo DB", ratingPercentage: 70 },
+    { skill: "PostgreSQL", ratingPercentage: 80 },
+    { skill: "Prisma ORM", ratingPercentage: 80 },
     { skill: "HTML", ratingPercentage: 80 },
     { skill: "CSS", ratingPercentage: 80 },
   ];
@@ -119,36 +121,107 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
         <ResumeHeading
-          heading={"Accenture"}
-          subHeading={"Software Engineer Frontend"}
-          fromDate={"2021"}
-          toDate={"present"}
+          heading={"ALT Mobility"}
+          subHeading={"SDE 1"}
+          fromDate={"Mar-2024"}
+          toDate={"Present"}
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            Currently working as an Frontend Developer at Accenture and also
-            learning Full Stack development.
+            - Developed Battery Analytics System: Engineered a backend solution
+            for real-time battery performance monitoring, extending battery
+            lifespan by 20%.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Implemented Real-Time Alerts: Deployed a full-stack solution for
+            deep discharge, low utilization, and offline vehicle alerts,
+            reducing downtime by 15%.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Engineered IoT Data Retrieval: Built a system for real-time
+            telemetry data from 500+ IoT-enabled electric vehicles, boosting
+            data accuracy and operational efficiency by 30%.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Integrated 2FA in FleetOS: Added two-factor authentication with
+            TOTP and SMS OTP, reducing unauthorized access incidents by 40%.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Spearheaded DCO Product Development: Launched the Driver-Cum-Owner
+            product, facilitating 50+ new driver onboardings in one month.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Designed Secure Payment System: Implemented a payments system
+            using Easebuzz and Zoho Books APIs, ensuring PCI-DSS compliance and
+            managing 300+ monthly transactions.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Created Dynamic Lease Payment Module: Developed a system for
+            dynamic lease payment calculations, optimizing processing times for
+            50+ drivers.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Launched Part-Payment Option: Introduced a flexible payment plan
+            for security deposits, benefiting 20+ drivers over 45 days.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Enhanced Payment Processing: Improved the payment system with
+            webhooks and refund APIs, reducing transaction errors by 25%.
+          </span>
+          <br />
+          <span className="resume-description-text">
+            - Automated Payment Reporting: Built an automated system for
+            tracking outstanding payments, decreasing delays by 15%.
+          </span>
+          <br />
+        </div>
+        <ResumeHeading
+          heading={"Accenture"}
+          subHeading={"Software Engineer Frontend"}
+          fromDate={"Oct-2021"}
+          toDate={"Feb-2024"}
+        />
+        <div className="experience-description">
+          <span className="resume-description-text">
+            - Worked as Frontend Developer at Accenture.
           </span>
         </div>
         <div className="experience-description">
           <span className="resume-description-text">
-            - Contributed to the Onboarding website, improving user experience and functionality. 
+            - Developed a comprehensive system for managing subscriptions,
+            including trials, conversions to paid, and renewals, ensuring timely
+            reminders using SendGrid.
           </span>
           <br />
           <span className="resume-description-text">
-            - Seamlessly integrated design mockups with React logic to implement various functionalities. 
+            - Built and managed email templates for personalized notifications
+            on subscription status, utilizing SendGrid to automate and
+            streamline communication.
           </span>
           <br />
           <span className="resume-description-text">
-            - Participated in code reviews, providing constructive feedback to foster a collaborative development environment.
+            - Created a user-friendly dashboard for managing subscriptions,
+            providing real-time insights for product owners and managers.
           </span>
           <br />
           <span className="resume-description-text">
-            - Enhanced user profiles with dynamic styling, elevating visual appeal and interactivity.
+            - Implemented robust API endpoints (GET, POST, PUT, DELETE, PATCH)
+            to enhance the functionality and integration of the subscription
+            management system.
           </span>
           <br />
           <span className="resume-description-text">
-            - Addressed UI/logic issues through efficient refactoring of React Components, using JavaScript, React, HTML, and CSS.
+            - Enabled efficient tracking of subscription statuses (active,
+            expired, renewal needed), improving overall user experience and
+            operational efficiency.
           </span>
           <br />
         </div>

@@ -150,6 +150,12 @@
     color: white;
 }
 
+.experience-container {
+    max-height: 360px;
+    overflow-y: auto;
+    padding-right: 15px;
+}
+
 .skill-parent {
     display: flex;
     flex-direction: column;

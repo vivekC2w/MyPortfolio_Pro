@@ -14,15 +14,15 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTSANTS = {
     description:
-      "Full stack web and mobile developer with background knowledge of MERN stacks with redux, along with a knack of building applications with utmost efficiency. React front-end developer dedicated to creating user-friendly and visually appealing web applications. With a strong foundation in HTML, CSS, and JavaScript, I specialize in building robust and responsive UI components using React.js.",
+      "As a proactive Software Engineer specializing in full-stack development, I excel in creating dynamic and efficient web applications. With expertise in React.js, Express, Java, HTML, CSS, JavaScript, Angular, TypeScript, Node.js, MongoDB, MySQL, JQuery, RESTful APIs, Redux, Data Structures, PostgreSQL, Prisma, Web Services, Git, Bootstrap, and TRPC. At ALT Mobility, I have contributed to various projects, enhancing both the user experience and system functionality through innovative software development.",
     highlights: {
       bullets: [
-        "Full Stack web and mobile development",
+        "Full Stack web development",
         "Interactive Front End as per the design",
-        "React and React Native",
-        "Redux for State Mnanagement",
-        "Building REST API",
-        "Managing database",
+        "React and Angular for Front End",
+        "System Design",
+        "Building REST & tRPC API",
+        "Managing database postgresSQL and MongoDB",
       ],
       heading: "Here are a Few Highlights:",
     },
@@ -61,7 +61,7 @@ export default function AboutMe(props) {
                 {" "}
                 Hire Me{" "}
               </button>
-              <a href="Vivek_Resume_FSD.pdf" download="Vivek_Resume_FSD.pdf">
+              <a href="Resume.docx" download="Resume.docx">
                 <button className="btn highlighted-btn">Get Resume</button>
               </a>
             </div>
