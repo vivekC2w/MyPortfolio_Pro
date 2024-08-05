@@ -2,6 +2,8 @@ import React from "react";
 import Typical from "react-typical";
 import ScrollService from "../../../utilities/ScrollService";
 import "./Profile.css";
+import { SimpleIconsLeetcode } from "../../../utilities/SimpleIconsLeetcode";
+import GeeksforGeeksIcon from "../../../utilities/GeeksforGeeksIcon";
 
 export default function Profile() {
   return (
@@ -10,14 +12,18 @@ export default function Profile() {
         <div className="profile-details">
           <div className="colz">
             <div className="colz-icon">
-              <a href="https://www.facebook.com/vivek.hiray.9">
-                <i className="fa fa-facebook-square" aria-hidden="true"></i>
+              <a href="https://leetcode.com/u/Vivek_Hiray/">
+                <span className="fa">
+                 <SimpleIconsLeetcode />
+                </span>
               </a>
               <a href="https://github.com/vivekC2w">
                 <i className="fa fa-github"></i>
               </a>
-              <a href="https://www.instagram.com/__iamvivek_/">
-                <i className="fa fa-instagram"></i>
+              <a href="https://www.geeksforgeeks.org/user/vivek23699/">
+                <span className="fa">
+                  <GeeksforGeeksIcon />
+                </span>
               </a>
               <a href="https://www.linkedin.com/in/vivek-hiray-0a69671ab/">
                 <i class="fa fa-linkedin-square" aria-hidden="true"></i>
